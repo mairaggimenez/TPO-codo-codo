@@ -1,0 +1,89 @@
+*   {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+body    {
+    font-size: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: #DAF7A6;
+}
+
+.textos-header  {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-align: center;
+    margin-bottom: auto;
+    font-size: 30px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0px 0px;
+}
+nav > a{
+    color:black ;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+    
+}
+.contenedor-sobrenosotros{
+    scroll-padding: 60px 0px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    display: inline;
+    justify-content: space-evenly;
+}
+.titulo {
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.contenedor-sobrenosotros {
+    width: 48%;
+}
+.contenedor-sobrenosotros h3 {
+    margin-bottom: 15px;
+}
+.contenedor-sobrenosotros h3 span {
+    background-color:black;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    
+}
+.contenedor-sobrenosotros p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+.contenedor-sobrenosotros img {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap ;
+}
+.formulario {
+    text-align: left;
+}
+
+
+
+

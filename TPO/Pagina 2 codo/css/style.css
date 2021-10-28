@@ -1,0 +1,115 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+boby    {
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D1F714 ;
+    position: sticky;
+    top: 0;
+    padding: 10px 50px;
+    z-index: 1;
+}
+.imag-intro img{
+    width: 20%;
+}
+.nav-link li {
+   list-style: none;
+   display: inline-block;
+   padding: 5px 20px;
+}
+.nav-link li a {
+    color : black;
+    text-decoration: none;
+    font-weight: 800;
+   
+}
+.nav-link a:hover   {
+    text-decoration: underline;
+}
+.conteiner  {
+    position: relative;
+    width: 100%;
+}
+#home   {
+    display: block;
+    padding: 0px 100px;
+    margin: auto;
+    background-color: #11F7A8;
+    height: 400px;
+}
+#home .columna  {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#home p{
+    margin-top: 100px;
+    font-size: 1.5rem;
+    color: black;
+    text-align: left;
+}
+#home h1{
+    font-size: 2.0rem;
+    color: #E0127E;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: left;
+}
+
+#nosotros   {
+    display: block;
+}
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#nosotros p{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 30px 0px;
+    font-size: 20px;
+}
+#servicios  {
+    display: block;
+}
+
+#servicios p{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 30px 0px;
+    font-size: 20px;
+}
+#servicios .imagenserv{
+    width: 50%;
+    
+}
+
+#contacto   {
+    display: block;
+}
+
+#contacto .columna  {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 30px 20px;
+}
+.input  {
+    border: 2px solid #E0127E;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+
+

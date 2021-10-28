@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construcciones Aureas Alumno: Maira Gimenez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Recursive:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/2d99cc080b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h2 class="logo"><i class="fas fa-drafting-compass"></i>Construcciones Aureas</h2>
+            <nav>
+                <li><a href="../index.html">Nosotros</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="">Contacto</a></li>
+            </nav>
+        </div>
+    </header>
+    <section class="iframe">
+        <div>
+            <u><h3>Nuestra Dirección</h3></u>
+            <iframe style="margin-top: 2%;"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d836.9215973177369!2d-68.7490262273067!3d-32.95928836354643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0d01aff8d4a3%3A0x8a984c931dca7f6f!2sDistrito%20Moron!5e0!3m2!1ses!2sar!4v1634909277713!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section class="form">
+        <div>
+            <form action="">
+                <u><h3 style="margin-top: 2%;">Contacto</h3></u>
+                <input style="margin-top: 2%;" class="inp" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" ><br>
+                        <input class="inp" type="text" name="email" id="email" placeholder="Ingrese su email" ><br>
+                        <input class="inp" type="text" name="asunto" id="asunto" placeholder="Ingrese su asunto" ><br>
+                        <textarea class="inp" name="mensaje" id="mensaje" cols="30" rows="5" placeholder="ingrese su mensaje" class="input"></textarea>
+                        <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p><br>
+                        <div id="error"></div>
+
+                        <input class="boton" type="submit" value="Enviar" style="font-size: 20px;">
+            </form>
+        </div>
+    </section>
+    
+    <section class="newsletter">
+        <div>
+            <label for="correo">
+                <h4>SUSCRIBITE A NUESTRO NEWSLETTER</h4>
+                <input type="text" id="correo" placeholder="correo">
+            </label>
+        </div>
+        <button>Enviar</button>
+    </section>
+
+    <footer>
+        <ul>
+            <li>Planos</li>
+            <li>Construcción</li>
+            <li>Direcciones Técnicas</li>
+            <li>Ambiente y Seguridad</li>
+        </ul>
+        <p>Todos los derechos reservados</p>
+    </footer>
+
+    <script src="./js/formValidar.js"></script>
+
+</body>
+</html>
